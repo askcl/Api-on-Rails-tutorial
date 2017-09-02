@@ -1,0 +1,532 @@
+    1  sudo apt-get install psensor
+    2  whois
+    3  who
+    4  sudo apt-get upgrade
+    5  sudo apt-get install g++
+    6  make 
+    7  sudo make
+    8  sudo apt-get install gtk2.0
+    9  ./configure --prefix=/opt/geany
+   10  sudo apt-get install intltool
+   11  ./configure --prefix=/opt/geany
+   12  make 
+   13  cd ~/geany-1.30.1/
+   14  ./configure --prefix=/opt/geany
+   15  vim /proc/cpuinfo 
+   16  sudo apt-get install vim 
+   17  vim /proc/cpuinfo 
+   18  make -j3
+   19  make install 
+   20  sudo make install 
+   21  /opt/geany/bin/geany 
+   22  sudo apt-get install bittorrent
+   23  sudo apt-get install qbittorrent
+   24  sudo apt-get install faenza-icon-theme 
+   25  cd ..
+   26  sudo apt-get install faenza-icon-theme 
+   27  sudo apt-get install unity-tweak-tool 
+   28  sudo apt-get install gnome-tweak-tool 
+   29  sudo echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" | sudo tee -a /etc/apt/sources.list
+   30  gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
+   31  gpg -a --export E084DAB9 | sudo apt-key add -
+   32  sudo apt-get update
+   33  sudo apt-get install r-base r-base-dev
+   34  sudo apt-get install subversion
+   35  svn --version
+   36  sudo apt-get install codeblocks
+   37  sudo apt-get install monodevelop
+   38  sudo apt-get install latexmk 
+   39  sudo apt-get install texlive-latex-base
+   40  sudo apt-get install texlive
+   41  latexmk -pdf Безымянный\ Текстовый\ документ.tex 
+   42  sudo apt-get install texlive-lang-cyrillic 
+   43  latexmk -pdf Безымянный\ Текстовый\ документ.tex 
+   44  sudo apt-get install texlive-latex-extra
+   45  latexmk -pdf Безымянный\ Текстовый\ документ.tex 
+   46  sudo apt-get install libdvd-pkg 
+   47  sudo apt-get install vlc
+   48  gedit ~/.local/share/applications/Geany.desktop
+   49  rm ~/.local/share/applications/Geany.desktop 
+   50  vim .local/share/applications/geany.desktop 
+   51  find /opt/geany/ *.jpg
+   52  find /opt/geany/ *.jpeg
+   53  sudo apt-get install libssl1.0.0
+   54  ./Civ5XP 
+   55  ll
+   56  ./Civ5XP
+   57  ldd ./Civ5XP
+   58  top
+   59  python long.py
+   60  python long.py > out
+   61  ./Civilization_VI-1.0.0.56-x86_64.AppImage 
+   62  sudo apt-get install libssl1.0.0
+   63  ldd libopenal.so.1
+   64  sudo apt-get install openal
+   65  sudo apt-get install libalut-dev
+   66  ./Civilization_VI-1.0.0.56-x86_64.AppImage 
+   67  lspci -vnn | grep VGA -A 12
+   68  sudo lshw -businfo | grep -i display
+   69  lspci
+   70  lspci -k | grep -EA2 'VGA|3D'  
+   71  python pmch.py 
+   72  top
+   73  python pmch.py  > out
+   74  python pperm.py > out
+   75  python rstr.py > out
+   76  python rstr.py 
+   77  python rstr.py > out
+   78  python sign.py > out
+   79  python fsm.py > out
+   80  sudo apt-add-repository -y ppa:rael-gc/rvm
+   81  sudo apt-get update
+   82  sudo apt-get install rvm 
+   83  rvm install 2.4.1
+   84  source /etc/profile.d/rvm.sh 
+   85  rvm install 2.4.1
+   86  sudo rvm install 2.4.1
+   87  rvm install 2.4
+   88  rvm list known
+   89  rvm install ruby-2.4.0
+   90  rvm group add rvm askcl
+   91  rvm fix-permissions system 
+   92  rvm install ruby-2.4.0
+   93  rvm list known
+   94  source /etc/profile.d/rvm.sh 
+   95  rvm list known
+   96  rvm install ruby-2.4.0
+   97  id
+   98  rvm group add rvm askcl
+   99  id
+  100  rvm install ruby-2.4.0
+  101  source /etc/profile.d/rvm.sh 
+  102  rvm install ruby-2.4.0
+  103  rvm install ruby-2.4.1
+  104  ruby -v
+  105  rvm rubies
+  106  rvm list
+  107  rvm use system 
+  108  rvm list
+  109  ruby -v
+  110  rvm --default use 2.4.1
+  111  ruby -v
+  112  sudo apt-get install postgresql postgresql-contrib
+  113  latexmk -pdf Безымянный\ Текстовый\ документ.tex 
+  114  sudo ifconfig -a
+  115  svn co https://projects.lanit-tercom.com/svn/redmine/ redmine-tsurovikina
+  116  cd redmine-tsurovikina/
+  117  sudo apt-get install postgresql
+  118  sudo apt-get install sysv-rc-conf
+  119  sysv-rc-conf postgres on 
+  120  sudo sysv-rc-conf postgres on 
+  121  service postgresql initdb
+  122  sudo chown postgres:postgres postgresql
+  123  chmod 700 postgresql
+  124  sudo chmod 700 postgresql
+  125  service postgresql restart
+  126  su - postgres
+  127  sudo su postgres 
+  128  service postgresql restart
+  129  su postgres -c 'psql -W redmine redmine'
+  130  sudo su postgres -c 'psql -W redmine redmine'
+  131  exit
+  132  vim test.sh 
+  133  find ~/ vim 
+  134  sudo vim /usr/share/vim/vimrc
+  135  vim plugins/redmine_code_review/lib/code_review_changeset_patch.rb 
+  136  grep -rnw . -e 'done_ratio'
+  137  grep -rnw ./app -e 'done_ratio'
+  138  grep -rnw ./app -e 'done_ratio' > out.grep.txt
+  139  vim plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb
+  140  cd ~/
+  141  svn co https://svn.redmine.org/redmine/branches/3.3-stable redmine-3.3
+  142  ll -a
+  143  bundle install 
+  144  ./test.sh 
+  145  bundle exec rake test RAILS_ENV=test
+  146  ./test.sh 
+  147  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  148  bundle install 
+  149  gem install simplecov
+  150  rvm all do gem install simplecov
+  151  source /etc/profile.d/rvm.sh 
+  152  rvm all do gem install simplecov
+  153  bundle install 
+  154  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  155  grep -rnw . -e CodeReviewAssignment
+  156  vim app/models/code_review.rb 
+  157  vim app/models/code_review_assignment.rb 
+  158  vim plugins/redmine_code_review/test/functional/code_review_controller_test.rb
+  159  vim plugins/redmine_code_review/lib/code_review_changeset_patch.rb 
+  160  vim config/database.yml
+  161  ssh-keygen -t rsa
+  162  sudo apt-get install imagemagick
+  163  ruby -v
+  164  sudo systemctl status avahi-daemon.service 
+  165  sudo systemctl stop avahi-daemon.service 
+  166  sudo systemctl stop avahi-daemon.socket 
+  167  sudo systemctl status avahi-daemon.service 
+  168  sudo systemctl stop avahi-daemon.service 
+  169  sudo systemctl status avahi-daemon.service 
+  170  systemctl disable avahi-daemon.socket 
+  171  systemctl disable avahi-daemon.service 
+  172  sudo systemctl status avahi-daemon.service 
+  173  sudo systemctl stop avahi-daemon.service 
+  174  sudo systemctl stop avahi-daemon.socket 
+  175  sudo systemctl stop avahi-daemon.service 
+  176  sudo systemctl status avahi-daemon.service 
+  177  sudo systemctl mask avahi-daemon.service 
+  178  sudo systemctl mask avahi-daemon.socket 
+  179  sudo systemctl daemon-reload 
+  180  sudo systemctl status avahi-daemon.service 
+  181  sudo systemctl stop avahi-daemon.service 
+  182  sudo systemctl stop avahi-daemon.socket
+  183  sudo systemctl status avahi-daemon.service 
+  184  ssh root@rm2-mm.lt.local
+  185  rvm use system 
+  186  source /etc/profile.d/rvm.sh 
+  187  rvm use system 
+  188  can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+  189  gem install pg -v '0.18.4'
+  190  rvm gem install pg -v '0.18.4'
+  191  rvm all do gem install pg -v '0.18.4'
+  192  sudo gem install pg -v '0.18.4'
+  193  sudo apt-get install libpq-dev
+  194  bundle install 
+  195  gem install rmagick -v '2.16.0'
+  196  rvm gem install rmagick -v '2.16.0'
+  197  rvm all do gem install rmagick -v '2.16.0'
+  198  sudo apt-get install libmagickwand-dev imagemagick
+  199  gem install rmagick -v '2.16.0'
+  200  bundle install 
+  201  rails -v 
+  202  history | grep ssh
+  203  ssh root@rm2-mm.lt.local
+  204  scp . root@172.21.64.18:/var/backup/redmine-20170615.tar.gz 
+  205  scp ./ root@172.21.64.18:/var/backup/redmine-20170615.tar.gz 
+  206  scp ./smth root@172.21.64.18:/var/backup/redmine-20170615.tar.gz 
+  207  scp root@172.21.64.18:/var/backup/redmine-20170615.tar.gz ./
+  208  pg_restore -U redmine -d redmine ../redmine-20170615/redmine.out 
+  209  rsync -a ./files/ ../redmine-20170615/files
+  210  bundle exec rake tmp:clear RAILS_ENV=production
+  211  bundle exec rake db:migrate RAILS_ENV=production
+  212  rake generate_secret_token RAILS_ENV=production
+  213  thin start s -e production
+  214  RAILS_ENV=production bundle exec thin start --ssl
+  215  vim config/database.yml
+  216  vim .bundle/config
+  217  bundle exec rake db:drop RAILS_ENV=test
+  218  bundle install
+  219  bundle exec rake db:drop RAILS_ENV=test
+  220  touch test.sh
+  221  ll -a
+  222  chmod 777 test.sh 
+  223  ll -a
+  224  ./test.sh 
+  225  wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
+  226  tar -xf phantomjs-2.1.1-linux-x86_64.tar.bz2
+  227  cd phantomjs-2.1.1-linux-x86_64/
+  228  bin/phantomjs --webdriver 4444 > phantom_log & 
+  229  bundle exec rake test:units RAILS_ENV=test
+  230  vim test.sh
+  231  cd ..
+  232  bundle exec rake test:units RAILS_ENV=test
+  233  vim test.sh
+  234  ./test.sh 
+  235  bundle exec rake test:units RAILS_ENV=test
+  236  git --version
+  237  sudo apt-get install git
+  238  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  239  vim plugins/redmine_code_review/lib/code_review_changeset_patch.rb 
+  240  ./test.sh
+  241  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  242  ./test.sh
+  243  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  244  svn revert plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb 
+  245  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  246  svn stat
+  247  ./test.sh
+  248  svn stat
+  249  svn revert plugins/redmine_code_review/lib/code_review_changeset_patch.rb 
+  250  ./test.sh
+  251  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  252  vim ./log/test.log 
+  253  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  254  bundle exec ruby plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb 
+  255  bundle exec ruby plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  256  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  257  bundle exec rake redmine:plugins:test RAILS_ENV=test > out.txt
+  258  ./test.sh 
+  259  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  260  bundle exec rake redmine:plugins:test:unit RAILS_ENV=test 
+  261  bundle exec rake -T
+  262  bundle exec rake redmine:plugins:test:units RAILS_ENV=test 
+  263  bundle exec rake redmine:plugins:test:functionals RAILS_ENV=test 
+  264  bundle exec ruby plugins/redmine_agile/test/functional/issues_controller_test.rb RAILS_ENV=test
+  265  bundle exec ruby plugins/redmine_code_review/test/functional/code_review_controller_test.rb RAILS_ENV=test
+  266  kill 31846
+  267  bundle exec rake redmine:plugins:test:unit RAILS_ENV=test 
+  268  bundle exec rake redmine:plugins:test:units RAILS_ENV=test 
+  269  bundle exec ruby plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  270  svn stat 
+  271  svn diff plugins/redmine_code_review/lib/code_review_changeset_patch.rb
+  272  svn up 
+  273  svn stat 
+  274  bundle exec rake redmine:plugins:test:units RAILS_ENV=test 
+  275  bundle exec ruby plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  276  bundle exec rake redmine:plugins:test:units RAILS_ENV=test 
+  277  git config --global user.email "you@example.com"
+  278  git config --global user.email "kai.des@yandex.ru"
+  279  git config --global user.name "cafecco"
+  280  git commit -m "adding files"
+  281  git push origin 
+  282  ruby -v
+  283  rails -v
+  284  bundle exec rake test RAILS_ENV=test 
+  285  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  286  bundle exec rake redmine:plugins:test:functionals RAILS_ENV=test 
+  287  ./test.sh
+  288  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  289  top 
+  290  sensors 
+  291  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  292  bundle exec rake redmine:plugins:test:units RAILS_ENV=test 
+  293  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_change_patch_test.rb RAILS_ENV=test 
+  294  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test 
+  295  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  296  svn st 
+  297  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  298  ll ../
+  299  cp ../code_review_changeset_patch.rb  plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb 
+  300  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  301  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  302  svn revert plugins/redmine_code_review/lib/code_review_changeset_patch.rb 
+  303  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  304  cp ../code_review_changeset_patch.rb plugins/redmine_code_review/lib/code_review_changeset_patch.rb 
+  305  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  306  ./test.sh
+  307  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  308  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  309  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  310  ./test.sh
+  311  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  312  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  313  ./test.sh
+  314  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  315  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  316  ./test.sh
+  317  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb --seed 5322RAILS_ENV=test
+  318  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb --seed=5322 RAILS_ENV=test
+  319  bundle exec SEED=5322 rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  320  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb TESTOPTS="--seed=5322" RAILS_ENV=test
+  321  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  322  svn up .
+  323  svn stat
+  324  rm out.txt 
+  325  rm out.grep.txt 
+  326  svn stat
+  327  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb TESTOPTS="--seed=5322" RAILS_ENV=test
+  328  ./test.sh
+  329  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb TESTOPTS="--seed=5322" RAILS_ENV=test
+  330  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  331  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb TESTOPTS="--seed=5322" RAILS_ENV=test
+  332  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  333  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb TESTOPTS="--seed=5322" RAILS_ENV=test
+  334  svn stat
+  335  svn cdiff plugins/redmine_code_review/lib/code_review_changeset_patch.rb 
+  336  svn diff plugins/redmine_code_review/lib/code_review_changeset_patch.rb 
+  337  svn diff plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb 
+  338  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb TESTOPTS="--seed=5322" RAILS_ENV=test
+  339  svn stat
+  340  svn commit -m "code_review tests" plugins/redmine_code_review/lib/code_review_changeset_patch.rb plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb 
+  341  svn st
+  342  grep -rnw . -e "IssueStatus"
+  343  vim plugins/redmine_code_review/lib/code_review_changeset_patch.rb 
+  344  grep -rnw . -e "IssueStatus"
+  345  grep -rnw . -e "is_closed?"
+  346  RAILS_ENV=test bundle exec rails c 
+  347  grep -rnw . -e "open_assignment_count"
+  348  vim ./plugins/redmine_code_review/lib/code_review_change_patch.rb
+  349  grep -rnw . -e "assigned_to_id"
+  350  vim plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb:
+  351  vim plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb
+  352  ./test.sh
+  353  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  354  ./waf configure
+  355  ./waf configure --help
+  356  ./waf configure --prefix=/opt/
+  357  ./autogen.sh--prefix=/opt/geany/
+  358  ./autogen.sh --prefix=/opt/geany/
+  359  ./waf configure --with-geany-prefix=/opt/geany --prefix=/opt
+  360  ./configure --with-geany-prefix=/opt/geany --prefix=/opt
+  361  pkg-config --modversion geany
+  362  ./waf configure 
+  363  ./configure --with-geany-prefix=/opt/geany --prefix=/opt
+  364  cd /opt
+  365  ll
+  366  export PKG_CONFIG_PATH="/opt/geany/lib/pkgconfig:$PKG_CONFIG_PATH
+  367  "
+  368  export PKG_CONFIG_PATH="/opt/geany/lib/pkgconfig:$PKG_CONFIG_PATH"
+  369  mkdir /opt/geany_plugins
+  370  ./configure --with-geany-prefix=/opt/geany --prefix=/opt
+  371  export PKG_CONFIG_PATH="/opt/geany/lib/pkgconfig:$PKG_CONFIG_PATH"
+  372  pkg-config --modversion geany
+  373  ./configure --with-geany-prefix=/opt/geany --prefix=/opt
+  374  ./configure --prefix=/opt/geany_plugins/
+  375  make -j3
+  376  make install 
+  377  sudo make install 
+  378  sudo mkdir /opt/geany_plugins
+  379  sudo apt-get install texlive-science
+  380  latexmk -pdf Surovikina.tex 
+  381  latexmk -pdf Безымянный\ Текстовый\ документ.tex
+  382  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  383  ./test.sh
+  384  bundle exec rake redmine:plugins:test RAILS_ENV=test 
+  385  py --version
+  386  python --version
+  387  sudo add-apt-repository ppa:jonathonf/python-3.6
+  388  sudo apt-get install python3.5
+  389  sudo apt-get install qtcreator
+  390  bundle exec thin start -ssl
+  391  bundle exec thin start --ssl
+  392  grep -rnw . -e "User.generate!"
+  393  grep -rnw . -e "User.generate!" > grep.usr.txt
+  394  vim grep.usr.txt 
+  395  vim plugins/redmine_timesheet_plugin/test/test_helper.rb
+  396  kill 14818
+  397  top 
+  398  sudo apt-get install htop 
+  399  history 
+  400  vi config/database.yml
+  401  mount
+  402  ls /run/user/1000/
+  403  touch /run/user/1000/1
+  404  vi config/database.yml
+  405  vim plugins/redmine_code_review/lib/code_review_issue_hooks.rb 
+  406  vim plugins/redmine_code_review/lib/code_review_attachment_patch.rb 
+  407  vim plugins/redmine_code_review/lib/code_review_change_patch.rb 
+  408  grep -rnw . -e "is_closed"
+  409  latexmk -pdf Surovikina.tex 
+  410  latexmk -pdf -interaction=batchmode Surovikina.tex 
+  411  latexmk -pdf Surovikina.tex 
+  412  vim ./plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb
+  413  vim test/object_helpers.rb 
+  414  vim ./plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb
+  415  vim test/object_helpers.rb 
+  416  bundle exec ruby ./plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  417  bundle exec rails c
+  418  bundle exec ruby ./plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  419  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  420  ./test.sh
+  421  mount
+  422  mkdir -p /run/user/1000/redmine/db
+  423  ./test.sh
+  424  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  425  ./test.sh
+  426  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  427  bundle exec ruby ./plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  428  ./test.sh
+  429  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  430  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  431  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  432  ./test.sh
+  433  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  434  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  435  ./test.sh
+  436  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  437  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  438  bundle exec rake test TEST=plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  439  svn -diff
+  440  svn st
+  441  svn diff plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb
+  442  svn commit -m "code review tests, issue status" plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb
+  443  svn up .
+  444  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  445  ./test.sh
+  446  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  447  svn up .
+  448  bundle exec rake redmine:plugins:test RAILS_ENV=test
+  449  bundle exec ruby plugins/redmine_code_review/test/unit/code_review_changeset_patch_test.rb RAILS_ENV=test
+  450  bundle exec ruby plugins/redmine_code_review/test/unit/code_review_auto_assign_settings_test.rb RAILS_ENV=test
+  451  history 
+  452  latexmk -pdf письмо.tex 
+  453  sudo apt-get install ghostscript
+  454  cd Рабочий\ стол/
+  455  gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
+  456  Источник: http://liberatum.ru/exclusive/25313
+  457  gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
+  458  7z a  $pdf_file.7z -mx=9 -m0=LZMA:fb128 $file.pdf
+  459  sudo apt-get install p7zip-full 
+  460  7z a  $pdf_file.7z -mx=9 -m0=LZMA:fb128 $file.pdf
+  461  pdf2djvu -o output.djvu file.pdf
+  462  sudo apt-get intsall pdf2djvu
+  463  sudo apt-get install pdf2djvu
+  464  latexmk -pdf Surovikina.tex 
+  465  latexmk -pdf письмо.tex 
+  466  cd ПМИ/
+  467  cd письмо/
+  468  latexmk -pdf письмо.tex 
+  469  latexmk -pdf Surovikina.tex 
+  470  kvm-ok
+  471  sudo apt-get install cpu-checker 
+  472  kvm-ok
+  473  man iconv 
+  474  iconv -f cp1251 -t utf8 Age\ of\ Union\ \(4\ серия\).srt -o Age\ of\ Union\ \(4\ серия\).srt 
+  475  iconv -f WINDOWS-1251 -t UTF-8 Age\ of\ Union\ \(4\ серия\).srt 
+  476  iconv -f WINDOWS-1251 -t UTF-8 Age\ of\ Union\ \(4\ серия\).srt -o Age\ of\ Union\ \(4\ серия\).srt 
+  477  iconv -f WINDOWS-1251 -t UTF-8 Age\ of\ Union\ \(4\ серия\).srt > Age\ of\ Union\ \(4\ серия\).srt 
+  478  iconv -f WINDOWS-1251 -t UTF-8 Age\ of\ Union\ \(4\ серия\).srt < Age\ of\ Union\ \(4\ серия\).srt 
+  479  iconv -f WINDOWS-1251 -t UTF-8 Age\ of\ Union\ \(4\ серия\).srt > out.srt
+  480  cd Рабочий\ стол/
+  481  iconv -f WINDOWS-1251 -t UTF-8 Age\ of\ Revolution\ \(3\ серия\).srt > out.srt
+  482  sudo apt-get install cheese
+  483  cd branches/redmine-3.3.2-staging/
+  484  vim plugins/tercomin/init.rb 
+  485  vim plugins/
+  486  cd Загрузки/nautilus-dropbox-2.10.0/
+  487  ./configure 
+  488  sudo apt-get install libnautilus-extension
+  489  sudo apt-get install anki
+  490  sudo apt-get install mplayer
+  491  uptime
+  492  киутм -м
+  493  rbenv -v
+  494  gem update --system
+  495  rails -v
+  496  mkdir RoR
+  497  cd RoR
+  498  mkdir workspace
+  499  cd workspace/
+  500  rails new market_place_api -T
+  501  ruby -v
+  502  bundle install
+  503  rails exec bundle install
+  504  cd market_place_api/
+  505  bundle install
+  506  bundle exec rails -s
+  507  bundle exec rails s
+  508  bundle install
+  509  rails server
+  510  sudo apt-get install nodejs
+  511  vim Gemfile
+  512  bundle install
+  513  rails server
+  514  git init
+  515  git add .
+  516  git commit -m "Initializes the project"
+  517  git remote add origin git@github.com:askcl/market_place_api.git
+  518  git remote add origin https://github.com/askcl/Api-on-Rails-tutorial.git
+  519  git remote set-url https://github.com/askcl/Api-on-Rails-tutorial.git
+  520  git remote set-url --push https://github.com/askcl/Api-on-Rails-tutorial.git
+  521  git remote set-url origin https://github.com/askcl/Api-on-Rails-tutorial.git
+  522  git push -u origin master
+  523  vim Gemfile
+  524  bundle install 
+  525  vim Gemfile
+  526  cd RoR/workspace/market_place_api/
+  527  bundle exec rspec lib/spec/api_constraints_spec.rb
+  528  bundle exec rspec lib/spec/api_contraints_spec.rb 
+  529  bundle exec rspec lib/spec/api_constraints_spec.rb
+  530  vim config/routes.rb 
+  531  bundle exec rspec lib/spec/api_constraints_spec.rb
+  532  history > out.txt
