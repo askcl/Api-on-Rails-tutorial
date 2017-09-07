@@ -64,4 +64,5 @@ gem 'furatto'
 gem 'font-awesome-rails'
 gem 'simple_form'
 
+gem 'kaminari'
 gem 'devise'
